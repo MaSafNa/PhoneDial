@@ -1,5 +1,15 @@
 
-a
+.dial
+{
+     border: 3px solid gray;
+     border-radius: 25px;
+     height: 100px;
+     width: 91%;
+     margin-left: 4%;
+     margin-top: 40px;
+     background-color: azure;
+}
+button
 {
  position: relative;
  border: 3px solid gray;
@@ -7,14 +17,36 @@ a
  text-align: center;
  font-weight: 200;
  font-size: 120px;
- margin: 150px;
+ margin: 4%;
  padding: 3px;
+ width: 25%;
 
 
  
 }
+.cont
+
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;   
+}
 .call
 {
-     width: 10%;
+     width: 25%;
+     margin: 45px 0px;
+     margin-left: 37%;
       
+}
+.zero
+{
+      margin: 45px 0px;
+     margin-left: 37%;
+}
+.zrr
+{
+     display: block;
+     width: 100%;
+
+     margin-top: 0px;
 }
